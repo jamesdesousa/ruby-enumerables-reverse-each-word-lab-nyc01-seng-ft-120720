@@ -1,2 +1,4 @@
 def reverse_each_word(string)
-  string
+  arr = string.split(" ")
+  arr.collect do |num|
+    
